@@ -1,7 +1,13 @@
-import React from "react";
-import { useState } from "react";
-function App(){
-  return (<div className="my-app">
+// src/App.js
+import React from 'react';
+import Nav from './components/nav';
 
-  </div>);
+function App() {
+  return (
+    <div>
+      <Nav /> {/* Use the Nav component */}
+    </div>
+  );
 }
+
+export default App;
